@@ -31,8 +31,6 @@ mu = get_optb88vdw_energy()
 # torch.cuda.is_available = lambda : False
 # dpath = get_figshare_model_ff(model_name="scf_fd_top_10_en_42_fmax_600_wt01")
 model_path = wt01_path()  # wt1_path()
-model_path='/work/03943/kamalch/ls6/AFF_Bench/aff307k_lmdb_param_low_rad_use_force_mult_mp_tak4_cut4/out111/'
-model_path='/work/03943/kamalch/ls6/AFF_Bench/aff307k_lmdb_param_low_rad_use_cutoff_take4_noforce_mult_cut4/out111a'
 calculator = AlignnAtomwiseCalculator(path=model_path, stress_wt=0.3,filename='current_model.pt')
 
 """
