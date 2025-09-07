@@ -1,6 +1,5 @@
 # CatalysisMat: Examining Generalizability of AI Models for Catalysis
 
-⚠️ This repository is no longer maintained.
-For the latest updates and continued development, please visit: https://github.com/atomgptlab/catalysismat
+
 
 In this work, we investigate the generalizability of problem-specific machine-learning models for catalysis across different datasets and adsorbates, and examine the potential of unified models as pre-screening tools for density functional theory calculations. We develop graph neural network models for 12 different datasets for catalysis and then cross-evaluate their performance. Unified models include ALIGNN-FF, MATGL, CHGNet, and MACE. Pearson correlation coefficient analysis indicates that generalizability improves when similar adsorbates are used for training and testing or when a larger database is employed for training. Results demonstrate that while the accuracy of the unified models has room for improvement, their excellent performance in predicting the trend of adsorption energies can be a valuable pre-screening tool for selecting potential candidates prior to resource-intensive DFT calculations in catalyst design, thereby reducing computational expenses.
